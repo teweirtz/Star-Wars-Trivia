@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+	color: rgb(245, 231, 36);
+	text-align: center;
+	font-size: 4em;
+	font-family: 'Starjedi';
+    src: url('./Starjedi.ttf');
+}
+
+body{
+    background: url(./giphy.gif);
+    background-repeat:repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.quiz_container{
+    width: 550px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 0 10px 20px rgba(100, 100, 100, 0.1);
+    border-radius: 10px;
+}
+
+.quiz_heading{
+    padding: 3.85rem;
+}
+
+h2{
+    padding: 1rem;
+    margin: 0;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li{
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin: 1rem 0;
+}
+
+ul li label{
+    cursor: pointer;
+}
+
+.btn{
+    background: rgba(229, 69, 229, 0.814);
+    color: #fff;
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 1.2rem;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: rgb(245, 231, 36);
+}
+
+.btn:focus{
+    background: black;
+    outline: none;
+}
